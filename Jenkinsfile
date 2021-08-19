@@ -6,6 +6,12 @@ pipeline {
         maven "maven3"
 	//env.PATH = env.PATH + ";C:\\Windows\\System32"
     }
+    environment {
+	
+	   PATH = "C:\\WINDOWS\\SYSTEM32"
+		
+    }
+	
 
     stages {
 		stage ('Test'){
